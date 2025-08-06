@@ -40,8 +40,8 @@ User Query
    ├── "rag" ──► FAISS / Chroma / RAG-based Retriever
    └── "llm" ──► fine-tuned LLaMA 3.2 / GPT-based Deep Answer Generator
 
-
-🏋️‍♂️ Training Summary
+---
+##🏋️‍♂️ Training Summary
 1. Fine-tuning MiniLM
 Base model: sentence-transformers/all-MiniLM-L6-v2
 Loss: SoftmaxLoss or CosineSimilarityLoss
@@ -53,7 +53,7 @@ Features: Embeddings from fine-tuned MiniLM
 Model: LogisticRegression (sklearn)
 Labels: rag, llm
 
-🧳 Inference Dependencies
+##🧳 Inference Dependencies
 sentence-transformers
 scikit-learn
 numpy
