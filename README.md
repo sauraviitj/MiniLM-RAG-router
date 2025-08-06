@@ -16,7 +16,7 @@ This repository contains a smart, lightweight agentic AI application that routes
 ---
 
 ## 🚀 Architecture 
-![Architecture](https://github.com/sauraviitj/MiniLM-RAG-router/blob/main/Architecture_model.png])
+![Architecture](Architecture_model.png)
 
 ## 🚀 Model Structure
 ```bash
