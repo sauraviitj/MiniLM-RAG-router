@@ -13,7 +13,10 @@ This repository contains a smart, lightweight agentic AI application that routes
 - ✅ Fast inference with modular plug-and-play components
 - ✅ LLM fallback for "why", "explain", "risk"-based queries
 - ✅ Easy integration with Gradio or Flask frontends
+---
 
+## 🚀 Architecture 
+![Architecture](http://url/to/img.png)
 
 ## 🚀 Model Structure
 ```bash
