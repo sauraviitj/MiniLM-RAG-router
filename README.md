@@ -66,5 +66,17 @@ numpy
 joblib
 Optional: faiss-cpu, transformers, gradio, ollama
 
+flowchart TD
+    A[User Query Input] --> B[Tokenizer]
+    B --> C[Embedding Lookup<br>(10 tokens → 10×384)]
+    C --> D[+ Positional Embeddings]
+    D --> E[MiniLM Transformer Encoder<br>(Contextualized Token Vectors)]
+    E --> F[Pooling Layer<br>→ 1×384 vector]
+    F --> G[Linear + Sigmoid Classifier]
+    G --> H{Probability ≥ 0.5?}
+    H -- Yes --> I[Route to LLM]
+    H -- No --> J[Route to RAG]
+
+
 ## 🧳 results
 ![Result](results.png)
