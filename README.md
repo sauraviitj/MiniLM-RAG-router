@@ -67,4 +67,4 @@ joblib
 Optional: faiss-cpu, transformers, gradio, ollama
 
 ## 🧳 results
-![Result](result.png)
+![Result](results.png)
