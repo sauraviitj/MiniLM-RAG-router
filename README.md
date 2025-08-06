@@ -14,8 +14,9 @@ This repository contains a smart, lightweight agentic AI application that routes
 - ✅ LLM fallback for "why", "explain", "risk"-based queries
 - ✅ Easy integration with Gradio or Flask frontends
 
----
+
 ## 🚀 Model Structure
+```bash
 User Query
    │
    ▼
@@ -29,7 +30,7 @@ User Query
    │
    ├── "rag" ──► FAISS / Chroma / RAG-based Retriever
    └── "llm" ──► fine-tuned LLaMA 3.2 / GPT-based Deep Answer Generator
-   
+```bash   
 ## 📦 Folder Structure
 
 ```bash
