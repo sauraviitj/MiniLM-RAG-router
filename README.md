@@ -16,7 +16,7 @@ This repository contains a smart, lightweight agentic AI application that routes
 ---
 
 ## 🚀 Architecture 
-![Architecture](http://url/to/img.png)
+![Architecture](http://url/to/Architecture_model.png)
 
 ## 🚀 Model Structure
 ```bash
