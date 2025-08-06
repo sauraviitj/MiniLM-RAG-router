@@ -15,17 +15,7 @@ This repository contains a smart, lightweight agentic AI application that routes
 - ✅ Easy integration with Gradio or Flask frontends
 
 ---
-
-## 📦 Folder Structure
-
-```bash
-├── trained_encoder/           # Fine-tuned MiniLM model directory
-├── query_classifier.pkl       # Trained classifier (on top of embeddings)
-├── agent.py                   # Main smart agent logic
-├── utils.py                   # Utility functions for vectorization, prediction
-├── app.py                     # Optional: Gradio or FastAPI interface
-├── requirements.txt           # All dependencies
-└── README.md                  # This file
+## 🚀 Model Structure
 User Query
    │
    ▼
@@ -39,8 +29,20 @@ User Query
    │
    ├── "rag" ──► FAISS / Chroma / RAG-based Retriever
    └── "llm" ──► fine-tuned LLaMA 3.2 / GPT-based Deep Answer Generator
+   
+## 📦 Folder Structure
 
----
+```bash
+├── trained_encoder/           # Fine-tuned MiniLM model directory
+├── query_classifier.pkl       # Trained classifier (on top of embeddings)
+├── agent.py                   # Main smart agent logic
+├── utils.py                   # Utility functions for vectorization, prediction
+├── app.py                     # Optional: Gradio or FastAPI interface
+├── requirements.txt           # All dependencies
+└── README.md                  # This file
+
+
+---bash
 ##🏋️‍♂️ Training Summary
 1. Fine-tuning MiniLM
 Base model: sentence-transformers/all-MiniLM-L6-v2
