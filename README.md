@@ -66,3 +66,4 @@ numpy
 joblib
 Optional: faiss-cpu, transformers, gradio, ollama
 
+## 🧳 results
